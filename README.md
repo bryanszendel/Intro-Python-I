@@ -80,7 +80,7 @@ The suggested order for going through each of the directories is:
 * [X] `printing` -- Formatted print output
 * [X] `lists` -- Python's version of arrays
 * [X] `tuples` -- Immutable lists typically for heterogenous data
-* `slices` -- Accessing parts of lists
+* [X] `slices` -- Accessing parts of lists
 * `comprehensions` -- List comprehensions
 * `dictionaries` -- Dictionaries
 * `functions` -- Functions
