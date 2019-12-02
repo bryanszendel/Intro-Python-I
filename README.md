@@ -83,7 +83,7 @@ The suggested order for going through each of the directories is:
 * [X] `slices` -- Accessing parts of lists
 * [X] `comprehensions` -- List comprehensions
 * [X] `dictionaries` -- Dictionaries
-* `functions` -- Functions
+* [X] `functions` -- Functions
 * `args` -- Arguments and Keyword Arguments
 * `scopes` -- Global, Local, and Non-Local scope
 * `file_io` -- Read and write from files
