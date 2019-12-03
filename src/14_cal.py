@@ -21,4 +21,23 @@ and does the following:
 
 import sys
 import calendar
-from datetime import datetime
+from datetime import datetime, date
+
+if len(sys.argv) > 3:
+  print("include only month [01], and year [2020] in your command")
+  
+today = date.today()
+print(today)
+
+if len(sys.argv) > 1:
+  cur_month = int(sys.argv[1])
+else: 
+  cur_month = int(today.month)
+
+if len(sys.argv) > 2:
+  cur_year = int(sys.argv[2])
+else:
+  cur_year = int(today.year)
+
+new_cal = calendar.TextCalendar()
+print(new_cal.formatmonth(cur_year, cur_month, w=3))
