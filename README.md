@@ -88,7 +88,7 @@ The suggested order for going through each of the directories is:
 * [X] `scopes` -- Global, Local, and Non-Local scope
 * [X] `file_io` -- Read and write from files
 * [X] `cal` -- Experiment with module imports and implement a text-based calendar
-* `classes` -- Classes and objects
+* [X] `classes` -- Classes and objects
 
 ## Stretch Goals
 
