@@ -13,12 +13,8 @@ class LatLon:
 # YOUR CODE HERE
 class Waypoint(LatLon):
   def __init__(self, name, lat, lon):
-    super().__init__(self, name)
+    super().__init__(lat, lon)
     self.name = name
-    self.lat = lat
-    self.lon = lon
-  # def __repr__(self):
-  #   return self.name, self.lat, self.lon
   def __str__(self):
     return f"{self.name}, {self.lat}, {self.lon}"
 
@@ -28,10 +24,7 @@ class Waypoint(LatLon):
 # YOUR CODE HERE
 class Geocache(Waypoint):
   def __init__(self, name, lat, lon, size, diff):
-    super().__init__(self, size, diff)
-    self.name = name
-    self.lat = lat
-    self.lon = lon
+    super().__init__(name, lat, lon)
     self.size = size
     self.diff = diff
   def __str__(self):
